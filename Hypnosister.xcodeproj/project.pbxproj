@@ -13,6 +13,7 @@
 		AF847F1A1C29F96C00DE568A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF847F181C29F96C00DE568A /* Main.storyboard */; };
 		AF847F1C1C29F96C00DE568A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF847F1B1C29F96C00DE568A /* Assets.xcassets */; };
 		AF847F1F1C29F96C00DE568A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF847F1D1C29F96C00DE568A /* LaunchScreen.storyboard */; };
+		AF847F281C29F9B300DE568A /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF847F271C29F9B300DE568A /* HypnosisView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AF847F1B1C29F96C00DE568A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF847F1E1C29F96C00DE568A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF847F201C29F96C00DE568A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF847F261C29F9B300DE568A /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		AF847F271C29F9B300DE568A /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				AF847F121C29F96C00DE568A /* AppDelegate.h */,
 				AF847F131C29F96C00DE568A /* AppDelegate.m */,
+				AF847F261C29F9B300DE568A /* HypnosisView.h */,
+				AF847F271C29F9B300DE568A /* HypnosisView.m */,
 				AF847F151C29F96C00DE568A /* ViewController.h */,
 				AF847F161C29F96C00DE568A /* ViewController.m */,
 				AF847F181C29F96C00DE568A /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF847F171C29F96C00DE568A /* ViewController.m in Sources */,
+				AF847F281C29F9B300DE568A /* HypnosisView.m in Sources */,
 				AF847F141C29F96C00DE568A /* AppDelegate.m in Sources */,
 				AF847F111C29F96C00DE568A /* main.m in Sources */,
 			);
